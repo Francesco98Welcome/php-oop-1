@@ -40,7 +40,7 @@ echo '<br>';
 echo '<br>';
 echo '<hr>';
 
-echo '<h1>Altro esempio fatto meglio </h1>';
+echo '<h1>Altro esempio</h1>';
 
 class MovieTwo
 {
@@ -61,9 +61,5 @@ class MovieTwo
     }
 }
 
-$movieOne = new MovieTwo("Avatar", 2010, "Azione/Fantascienza");
-$movieTwo = new MovieTwo("Titanic", 1998, "Romantic");
-
-
-echo $movieOne->getDetails();
-echo $movieTwo->getDetails();
+$movie = new MovieTwo("Avatar", 2010, "Azione/Fantascienza");
+echo $movie->getDetails();
